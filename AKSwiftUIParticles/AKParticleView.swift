@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  AKParticleView.swift
 //  AKSwiftUIParticles
 //
 //  Created by Ashish Kakkad on 30/04/22.
@@ -8,7 +8,7 @@
 import SwiftUI
 import SpriteKit
 
-struct ContentView: View {
+struct AKParticleView: View {
     
     @State var animatedText: String = ""
     @State private var flag = true
@@ -47,6 +47,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        AKParticleView()
     }
 }

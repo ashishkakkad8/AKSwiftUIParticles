@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D2B8C53281DA6C000D8AC78 /* AKSwiftUIParticlesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B8C52281DA6C000D8AC78 /* AKSwiftUIParticlesApp.swift */; };
-		3D2B8C55281DA6C000D8AC78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B8C54281DA6C000D8AC78 /* ContentView.swift */; };
+		3D2B8C55281DA6C000D8AC78 /* AKParticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B8C54281DA6C000D8AC78 /* AKParticleView.swift */; };
 		3D2B8C57281DA6C400D8AC78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2B8C56281DA6C400D8AC78 /* Assets.xcassets */; };
 		3D2B8C5A281DA6C400D8AC78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2B8C59281DA6C400D8AC78 /* Preview Assets.xcassets */; };
 		3D2B8C61281DA72800D8AC78 /* FirefilesScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B8C60281DA72800D8AC78 /* FirefilesScene.swift */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		3D2B8C4F281DA6C000D8AC78 /* AKSwiftUIParticles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKSwiftUIParticles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2B8C52281DA6C000D8AC78 /* AKSwiftUIParticlesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKSwiftUIParticlesApp.swift; sourceTree = "<group>"; };
-		3D2B8C54281DA6C000D8AC78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D2B8C54281DA6C000D8AC78 /* AKParticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKParticleView.swift; sourceTree = "<group>"; };
 		3D2B8C56281DA6C400D8AC78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D2B8C59281DA6C400D8AC78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3D2B8C60281DA72800D8AC78 /* FirefilesScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirefilesScene.swift; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				3D2B8C52281DA6C000D8AC78 /* AKSwiftUIParticlesApp.swift */,
-				3D2B8C54281DA6C000D8AC78 /* ContentView.swift */,
+				3D2B8C54281DA6C000D8AC78 /* AKParticleView.swift */,
 				3D2B8C60281DA72800D8AC78 /* FirefilesScene.swift */,
 				3D2B8C64281DAEB600D8AC78 /* Firefiles.sks */,
 				3D2B8C56281DA6C400D8AC78 /* Assets.xcassets */,
@@ -145,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D2B8C61281DA72800D8AC78 /* FirefilesScene.swift in Sources */,
-				3D2B8C55281DA6C000D8AC78 /* ContentView.swift in Sources */,
+				3D2B8C55281DA6C000D8AC78 /* AKParticleView.swift in Sources */,
 				3D2B8C53281DA6C000D8AC78 /* AKSwiftUIParticlesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

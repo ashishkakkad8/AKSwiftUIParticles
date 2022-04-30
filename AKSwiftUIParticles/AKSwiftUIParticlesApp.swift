@@ -11,7 +11,7 @@ import SwiftUI
 struct AKSwiftUIParticlesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AKParticleView()
         }
     }
 }
